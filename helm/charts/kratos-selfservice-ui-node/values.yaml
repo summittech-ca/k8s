@@ -84,6 +84,9 @@ kratosPublicUrl: "http://kratos-public"
 # Set this to ORY Kratos's public URL accessible from the outside world.
 kratosBrowserUrl: "http://kratos-browserui"
 
+# Hydra URL, if applicable
+hydraAdminUrl: ""
+
 # The baseUrl
 baseUrl: ""
 
