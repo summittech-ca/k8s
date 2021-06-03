@@ -93,4 +93,6 @@ baseUrl: ""
 # The jwksUrl
 jwksUrl: "http://oathkeeper-api"
 
+autoAcceptConsent: false
+
 projectName: "SecureApp"

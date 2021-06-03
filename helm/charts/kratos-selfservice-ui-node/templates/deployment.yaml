@@ -67,6 +67,9 @@ spec:
             name: HYDRA_ADMIN_URL
             value: {{ .Values.hydraAdminUrl | quote }}
           {{ end }}
+          -
+            name: AUTO_ACCEPT_CONSENT
+            value: {{ .Values.autoAcceptConsent | quote }}
           ports:
             - name: http
               containerPort: 3000
